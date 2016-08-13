@@ -1,7 +1,11 @@
 header {
   background-color: $background2;
+
   .logo {
+    @include span-columns(12)
     font-size: 200%;
+    padding: .2em .25em;
+
     a {
       text-decoration: none;
       color: $color1;

@@ -5,20 +5,9 @@
 // Variables
 @import "colors";
 
+// Common
+@import "common";
+
 // Component includes
 @import "components/menu";
 @import "components/header";
-
-div.container {
-  @include outer-container;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  background-color: $background1;
-  color: $text;
-}
-a {
-  color: $text;
-}
