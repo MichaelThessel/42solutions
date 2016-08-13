@@ -1,1 +1,4 @@
 42s
+.sass-cache
+static/css/style*.css*
+node_modules/
