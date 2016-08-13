@@ -1,6 +1,15 @@
 @import "grid-settings";
 @import "neat/neat";
 
+
+// Variables
+@import "colors"
+
+// Component includes
+@import "components/menu";
+@import "components/header";
+
+
 div.container {
   @include outer-container;
 }
