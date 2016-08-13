@@ -1,14 +1,19 @@
 header {
+  @include media($mobile) {
+    text-align: center;
+  }
+
   background-color: $background2;
+  border-bottom: 1px solid $color5;
 
   .logo {
-    @include span-columns(12)
-    font-size: 200%;
-    padding: .2em .25em;
+    @include span-columns(12);
+    font-size: 300%;
+    padding: .5em .125em 0;
 
     a {
       text-decoration: none;
-      color: $color1;
+      color: $color2;
     }
   }
 }

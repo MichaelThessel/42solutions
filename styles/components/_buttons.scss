@@ -1,0 +1,21 @@
+.button {
+  &:hover {
+    background-color: $color5;
+  }
+
+  background-color: $color2;
+  border: 1px solid $border2;
+
+  padding: 1em 3em;
+  a {
+    &:before {
+      margin-right: .5em;
+    }
+    &:hover {
+      color: $text;
+      text-decoration: none;
+    }
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

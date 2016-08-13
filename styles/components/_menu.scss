@@ -1,5 +1,8 @@
 nav {
   @include span-columns(12)
+  @include media($mobile) {
+    text-align: center;
+  }
   padding: 1em .5em;
   ul {
     padding: 0;

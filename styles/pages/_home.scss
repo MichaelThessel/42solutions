@@ -1,0 +1,35 @@
+.home {
+  .intro {
+    padding: 1em .5em 2em;
+  }
+  .boxes {
+    .box {
+      @include span-columns(4);
+      @include omega(3n);
+      @include media($tablet) {
+        @include span-columns(12);
+      }
+      height: 10em;
+    }
+  }
+
+  .services {
+    @include span-columns(12);
+  }
+
+  .testimonials {
+    @include span-columns(12);
+    border-bottom: 1px solid $color2;
+    margin-bottom: 3em;
+    text-align: center;
+    p {
+      font-style: italic;
+    }
+  }
+
+  .outro {
+    @include span-columns(12);
+    padding-top: 2em;
+    text-align: center;
+  }
+}

@@ -1,0 +1,14 @@
+.quote {
+  @include media($tablet) {
+    padding: .5em;
+  }
+  padding-left: 5em;
+  padding-right: 5em;
+  font-size: 150%;
+  text-align: center;
+  span {
+    margin-left: 1em;
+    margin-top: 1em;
+    font-style: normal;
+  }
+}

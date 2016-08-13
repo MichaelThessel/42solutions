@@ -5,9 +5,18 @@
 // Variables
 @import "colors";
 
+// Fonts
+@import "fonts";
+
 // Common
 @import "common";
 
-// Component includes
-@import "components/menu";
+// Components
+@import "components/box";
+@import "components/buttons";
 @import "components/header";
+@import "components/menu";
+@import "components/quote";
+
+// Pages
+@import "pages/home";
