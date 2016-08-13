@@ -8,6 +8,7 @@
 <body>
   <header>
   </header>
+  {{.LayoutContent}}
   <footer>
   </footer>
 </body>

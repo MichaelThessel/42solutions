@@ -4,11 +4,11 @@ import (
     "github.com/astaxie/beego"
 )
 
-type MainController struct {
+type ContactController struct {
     beego.Controller
 }
 
-func (c *MainController) Get() {
+func (c *ContactController) Get() {
     c.Layout = "layout/layout.tpl"
-    c.TplName = "main/index.tpl"
+    c.TplName = "contact/index.tpl"
 }
