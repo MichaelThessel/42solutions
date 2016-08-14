@@ -32,8 +32,7 @@
     </ul>
   </div>
 
-  <div class="testimonials" id="testimonials">
-  </div>
+  <div class="testimonials" id="testimonials"></div>
 
   <div class="outro">
     <span class="button"><a href="/contact" class="icon-write">Get in touch</a></span>
