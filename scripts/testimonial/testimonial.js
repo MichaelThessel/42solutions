@@ -39,4 +39,6 @@ export class Testimonial extends React.Component {
 }
 
 const t = document.getElementById('testimonials');
-ReactDOM.render(<Testimonial/>, t);
+if (t) {
+    ReactDOM.render(<Testimonial/>, t);
+}
