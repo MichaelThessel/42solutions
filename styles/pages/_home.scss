@@ -10,6 +10,7 @@
       @include omega(3n);
       @include media($tablet) {
         @include span-columns(12);
+        height: 8em;
       }
       i {
         font-size: 18px;
