@@ -9,6 +9,10 @@
       @include media($tablet) {
         @include span-columns(12);
       }
+      i {
+        font-size: 18px;
+        margin-right: .5em;
+      }
       height: 10em;
     }
   }

@@ -11,4 +11,12 @@
     margin-top: 1em;
     font-style: normal;
   }
+  i {
+    @include media($tablet) {
+      display: none;
+    }
+    float: left;
+    font-size: 2.5em;
+    margin-right: -31px;
+  }
 }

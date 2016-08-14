@@ -7,17 +7,17 @@
 
   <div class="boxes">
     <div class="box1 box">
-      <h3>Custom</h3>
+      <h3><i class="icon-cog"></i>Custom</h3>
       <p>Your vision on the web</p>
     </div>
 
     <div class="box1 box">
-      <h3>Responsive</h3>
+      <h3><i class="icon-monitor"></i>Responsive</h3>
       <p>Web applications that work on any device</p>
     </div>
 
     <div class="box2 box">
-      <h3>Scalable</h3>
+      <h3><i class="icon-dashboard"></i>Scalable</h3>
       <p>A site that grows with your business</p>
     </div>
   </div>
@@ -34,7 +34,10 @@
 
   <div class="testimonials">
     <div class="testimonial quote">
-      <p>&quot;Michael is one of the most talented and detail-oriented programmers I've ever come across in almost 22 years online ...&quot;<span>&dash; Jack</span></p>
+      <i class="icon-bubble">&nbsp;</i>
+      <p>&quot;Michael is one of the most talented and detail-oriented
+      programmers I've ever come across in almost 22 years online
+      ...&quot; <span>&mdash;Jack</span></p>
     </div>
   </div>
 
