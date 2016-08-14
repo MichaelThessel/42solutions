@@ -1,6 +1,6 @@
 <div class="home">
 
-  <div class="intro quote">
+  <div class="intro">
     <p>With more than a decade of web development experience, I'm the
     partner you are looking for to implement your web project.</p>
   </div>
@@ -32,13 +32,7 @@
     </ul>
   </div>
 
-  <div class="testimonials">
-    <div class="testimonial quote">
-      <i class="icon-bubble">&nbsp;</i>
-      <p>&quot;Michael is one of the most talented and detail-oriented
-      programmers I've ever come across in almost 22 years online
-      ...&quot; <span>&mdash;Jack</span></p>
-    </div>
+  <div class="testimonials" id="testimonials">
   </div>
 
   <div class="outro">
