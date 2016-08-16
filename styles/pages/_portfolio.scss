@@ -1,10 +1,40 @@
 .portfolio {
   .meta {
     @include span-columns(5);
+    @include media($tablet) {
+      @include span-columns(12);
+    }
     padding: 0 1em;
+
+    .meta-item {
+      label,
+      span {
+        display: block;
+      }
+
+      label {
+        font-weight: 700;
+        margin-bottom: .5em;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      ul {
+        margin-top: 0;
+        padding-left: 20px;
+      }
+
+      margin-bottom: 1em;
+    }
   }
 
   .image {
+    @include media($tablet) {
+      @include span-columns(12);
+      margin-bottom: 1em;
+    }
     @include span-columns(7);
     @include omega();
     img {
@@ -14,5 +44,6 @@
 
   .pager {
     margin-bottom: 1em;
+    float: right;
   }
 }

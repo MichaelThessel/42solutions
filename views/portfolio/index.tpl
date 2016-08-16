@@ -22,8 +22,25 @@
       </span>
     </div>
 
-    <a class="link" target="_blank" href="http://{{.Portfolio.Domain}}">{{.Portfolio.Domain}}</a>
-    <p class="description">{{.Portfolio.Text}}</p>
+    <div class="meta-item">
+      <label for="link">Site</label>
+      <span><a class="link" target="_blank"
+      href="http://{{.Portfolio.Domain}}">{{.Portfolio.Domain}}</a></span>
+    </div>
+
+    <div class="meta-item">
+      <label for="description">Project Scope</label>
+      <span class="description">{{.Portfolio.Text}}</span>
+    </div>
+
+    <div class="meta-item">
+      <label for="technologies">Technologies</label>
+      <ul id="technologies">
+        {{range .Portfolio.Technologies}}
+          <li>{{.}}</li>
+        {{end}}
+      </ul>
+    </div>
   </div>
 
 </div>
