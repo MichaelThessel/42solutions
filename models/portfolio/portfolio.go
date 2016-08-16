@@ -13,7 +13,7 @@ var portfolios = [...]Portfolio{
     Portfolio { 10, "Functionality extensions & performance optimizations", "prometheanworld.com_-700x467.png", []string{"PHP", "MySQL", "Box UK CMS"}, "prometheanworld.com", true },
     Portfolio { 11, "Implementation of additional features & site maintenance", "coursework.info_-700x292.png", []string{"Perl", "MySQL", "Gossamer Links Framework"}, "coursework.info", true },
     Portfolio { 12, "Extensive feature additions & maintenance", "malaysia.com_-700x467.png", []string{"Perl", "MySQL", "Gossamer Links Framework"}, "malaysia.com", true },
-    Portfolio { 13, "Complete site revamp, perofrmance optimizations & feature additions", "thestudentroom.co_.uk_-700x526.png", []string{"PHP", "MySQL", "Memcache", "vBulletin"}, "thestudentroom.co.uk", true },
+    Portfolio { 13, "Complete site revamp, performance optimizations & feature additions", "thestudentroom.co_.uk_-700x526.png", []string{"PHP", "MySQL", "Memcache", "vBulletin"}, "thestudentroom.co.uk", true },
     Portfolio { 14, "Implementation of web application to aid the migration to SAP", "acg-world.com_-700x517.png", []string{"Ruby", "MySQL", "Rails"}, "acg-world.com", true },
     Portfolio { 15, "Implementation of framework to implement business logic for intranet and website", "mpipks-dresden.mpg.de_-700x528.png", []string{"PHP", "MySQL", "Custom Framework"}, "mpipks-dresden.mpg.de", true },
 }
