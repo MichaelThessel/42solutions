@@ -40,7 +40,7 @@ ul {
   margin-top: 1em;
 }
 
-.flipH {
+@mixin flipH() {
   display: inline-block;
   transform: scaleX(-1);
   -moz-transform: scaleX(-1);
