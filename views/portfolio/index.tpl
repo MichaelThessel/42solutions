@@ -7,17 +7,17 @@
     <div class="pager">
       <span class="prev">
         {{if .Prev}}
-          <a href="/portfolio/{{.Prev}}"><i class="icon-forward"></i></a>
+          <a href="/portfolio/{{.Prev}}"><i class="icon-arrow-left2"></i></a>
         {{else}}
-          <span class="disabled"><i class="icon-forward"></i></span>
+          <span class="disabled"><i class="icon-arrow-left2"></i></span>
         {{end}}
       </span>
 
       <span class="next">
         {{if .Next}}
-          <a href="/portfolio/{{.Next}}"><i class="icon-forward"></i></a>
+          <a href="/portfolio/{{.Next}}"><i class="icon-arrow-right2"></i></a>
         {{else}}
-          <span class="disabled"><i class="icon-forward"></i></span>
+          <span class="disabled"><i class="icon-arrow-right2"></i></span>
         {{end}}
       </span>
     </div>

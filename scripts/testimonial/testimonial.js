@@ -31,7 +31,7 @@ export class Testimonial extends React.Component {
     render() {
         return (
             <div class="testimonial quote">
-              <i class="icon-bubble"></i>
+              <i class="icon-bubble2"></i>
               <p>{'"' + this.state.testimonial.text + '"'}<span class="name">{" -" + this.state.testimonial.name}</span></p>
             </div>
         );

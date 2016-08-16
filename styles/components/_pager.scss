@@ -5,9 +5,6 @@
   }
   .prev {
     margin-right: .5em;
-      @include flipH();
-    i {
-    }
   }
 
   .disabled {

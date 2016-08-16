@@ -7,17 +7,17 @@
 
   <div class="boxes">
     <div class="box1 box">
-      <h3><i class="icon-cog"></i>Custom</h3>
+      <h3><i class="icon-equalizer2"></i>Custom</h3>
       <p>Your vision on the web</p>
     </div>
 
     <div class="box1 box">
-      <h3><i class="icon-monitor"></i>Responsive</h3>
+      <h3><i class="icon-mobile"></i>Responsive</h3>
       <p>Web applications that work on any device</p>
     </div>
 
     <div class="box2 box">
-      <h3><i class="icon-dashboard"></i>Scalable</h3>
+      <h3><i class="icon-rocket"></i>Scalable</h3>
       <p>A site that grows with your business</p>
     </div>
   </div>
@@ -35,6 +35,6 @@
   <div class="testimonials" id="testimonials"></div>
 
   <div class="outro">
-    <span class="button"><a href="/contact" class="icon-write">Get in touch</a></span>
+    <span class="button"><a href="/contact" class="icon-mail2">Get in touch</a></span>
   </div>
 </div>
