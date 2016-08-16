@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icon';
   src:
-    url('/static/fonts/icon.ttf?q93fcr') format('truetype'),
-    url('/static/fonts/icon.woff?q93fcr') format('woff'),
-    url('/static/fonts/icon.svg?q93fcr#icon') format('svg');
+    url('../fonts/icon.ttf?bbybz') format('truetype'),
+    url('../fonts/icon.woff?bbybz') format('woff'),
+    url('../fonts/icon.svg?bbybz#icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,6 +25,9 @@
 
 .icon-write:before {
   content: "\e900";
+}
+.icon-forward:before {
+  content: "\e905";
 }
 .icon-bubble:before {
   content: "\e901";

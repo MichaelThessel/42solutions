@@ -1,0 +1,16 @@
+.pager {
+  font-size: 150%;
+  a {
+    text-decoration: none;
+  }
+  .prev {
+    margin-right: .5em;
+      @include flipH();
+    i {
+    }
+  }
+
+  .disabled {
+    color: $disabled;
+  }
+}
