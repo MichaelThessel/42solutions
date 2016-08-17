@@ -13,8 +13,9 @@
         <div class="logo"><a href="/">42Solutions</a></div>
         <nav>
           <ul>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/">{{if eq .ActiveNav "main"}}&mdash;{{else}}//{{end}} Home</a></li>
+            <li><a href="/portfolio">{{if eq .ActiveNav "portfolio"}}&mdash;{{else}}//{{end}} Portfolio</a></li>
+            <li><a href="/contact">{{if eq .ActiveNav "contact"}}&mdash;{{else}}//{{end}} Contact</a></li>
           </ul>
         </nav>
       </div>

@@ -11,4 +11,5 @@ type MainController struct {
 func (c *MainController) Get() {
     c.Layout = "layout/layout.tpl"
     c.TplName = "main/index.tpl"
+    c.Data["ActiveNav"] = "main";
 }

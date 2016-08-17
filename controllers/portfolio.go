@@ -13,6 +13,7 @@ type PortfolioController struct {
 func (c *PortfolioController) Get() {
     c.Layout = "layout/layout.tpl"
     c.TplName = "portfolio/index.tpl"
+    c.Data["ActiveNav"] = "portfolio";
 
     var p fortytwo.Portfolio
     id, _ := strconv.Atoi(c.Ctx.Input.Param(":id"))
