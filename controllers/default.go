@@ -1,15 +1,15 @@
 package controllers
 
 import (
-    "github.com/astaxie/beego"
+	"github.com/astaxie/beego"
 )
 
 type MainController struct {
-    beego.Controller
+	beego.Controller
 }
 
 func (c *MainController) Get() {
-    c.Layout = "layout/layout.tpl"
-    c.TplName = "main/index.tpl"
-    c.Data["ActiveNav"] = "main";
+	c.Layout = "layout/layout.tpl"
+	c.TplName = "main/index.tpl"
+	c.Data["ActiveNav"] = "main"
 }
