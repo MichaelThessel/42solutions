@@ -25,6 +25,6 @@
         {{.LayoutContent}}
       </div>
     </div>
-    <script src="/static/js/script.min.js"></script>
+    <script src="/static/js/script-min.js"></script>
   </body>
 </html>
