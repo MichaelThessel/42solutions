@@ -10,15 +10,18 @@
 
 // Common
 @import "common";
+@import "forms";
 
 // Components
 @import "components/box";
 @import "components/buttons";
 @import "components/header";
 @import "components/menu";
+@import "components/message";
 @import "components/pager";
 @import "components/quote";
 
 // Pages
+@import "pages/contact";
 @import "pages/home";
 @import "pages/portfolio";

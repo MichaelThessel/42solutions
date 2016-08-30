@@ -1,0 +1,35 @@
+.contact {
+  .contact-form {
+    @include span-columns(4);
+    @include media($desktop) {
+      @include span-columns(5);
+    }
+    @include media($tablet) {
+      @include span-columns(12);
+    }
+  }
+
+  .address {
+    @include span-columns(8);
+    @include media($desktop) {
+      @include span-columns(7);
+    }
+    @include media($tablet) {
+      @include span-columns(12);
+    }
+  }
+
+  .contact-form {
+    @include media($tablet) {
+      margin-bottom: 3em;
+    }
+  }
+
+  textarea {
+    height: 300px;
+  }
+
+  address {
+    font-style: normal;
+  }
+}

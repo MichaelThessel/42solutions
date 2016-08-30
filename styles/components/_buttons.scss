@@ -4,9 +4,10 @@
   }
 
   background-color: $color2;
-  border: 1px solid $border2;
+  border: none;
 
   padding: 1em 3em;
+  span,
   a {
     &:before {
       margin-right: .5em;
@@ -18,5 +19,7 @@
     }
     text-transform: uppercase;
     text-decoration: none;
+
+    color: $text;
   }
 }

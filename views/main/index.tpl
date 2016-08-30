@@ -35,6 +35,6 @@
   <div class="testimonials" id="testimonials"></div>
 
   <div class="outro">
-    <span class="button"><a href="/contact" class="icon-mail2">Get in touch</a></span>
+    <span class="button"><a href="/contact">Get in touch</a></span>
   </div>
 </div>

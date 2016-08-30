@@ -1,0 +1,37 @@
+form {
+  .field {
+    margin-bottom: 1em;
+
+    label {
+      display: block;
+      margin-bottom: .3em;
+      color: $color2;
+    }
+
+    ul.errors {
+      font-size: 80%;
+      list-style: none;
+      color: $color2;
+    }
+  }
+
+  .field.required {
+    label {
+      &:after{
+        content: "*";
+        margin-left: .3em;
+      }
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  textarea {
+    padding: .3em .5em;
+    font-size: 100%;
+    width: 300px;
+    border: none;
+  }
+}
