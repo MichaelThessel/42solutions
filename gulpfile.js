@@ -5,6 +5,7 @@ var sass = require('gulp-sass');
 var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
 var minify = require('gulp-minify');
+var concat = require('gulp-concat');
 
 gulp.task('default', ['sass:watch', 'js:watch']);
 
@@ -23,7 +24,11 @@ gulp.task('sass:watch', function () {
 
 // JS minify
 gulp.task('js', function () {
-    return gulp.src('./scripts/**/*.js')
+    return gulp.src([
+            './scripts/testimonial.js',
+            './scripts/script.js',
+        ])
+        .pipe(concat('script.js'))
         .pipe(minify({
             noSource: true
         }))

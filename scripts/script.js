@@ -1,0 +1,3 @@
+(function() {
+    testimonials.init('testimonials');
+})();
