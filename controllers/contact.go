@@ -28,6 +28,12 @@ func (c *ContactController) Post() {
 	m.Telephone = c.Input().Get("telephone")
 	m.Message = c.Input().Get("message")
 
+	isValid, errors := m.Validate()
 	c.Data["Message"] = m
-	c.Data["IsValid"], c.Data["Errors"] = m.Validate()
+	c.Data["IsValid"] = isValid
+	c.Data["Errors"] = errors
+
+	if isValid {
+		m.Send()
+	}
 }
