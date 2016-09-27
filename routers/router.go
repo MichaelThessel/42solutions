@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"42s/controllers"
+	"github.com/MichaelThessel/42solutions/controllers"
 	"github.com/astaxie/beego"
 )
 

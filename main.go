@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "42s/routers"
+	_ "github.com/MichaelThessel/42solutions/routers"
 	"github.com/astaxie/beego"
 )
 

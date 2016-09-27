@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"42s/models/portfolio"
+	"github.com/MichaelThessel/42solutions/models/portfolio"
 	"github.com/astaxie/beego"
 	"strconv"
 )

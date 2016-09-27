@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"42s/models/contact"
+	"github.com/MichaelThessel/42solutions/models/contact"
 	"github.com/astaxie/beego"
 )
 
