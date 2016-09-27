@@ -9,9 +9,9 @@ var testimonials = {
     textEl: null,
 
     testimonials: [
-        {name: "Jack", text: "Michael is one of the most talented and detail-oriented programmers I've ever come across in almost 22 years online ..."},
-        {name: "Rebecca", text: "I have been EXTREMELY happy with all the web development work you have done for us ..."},
-        {name: "Robert", text: "By the way, I have nothing but glowing reviews for Michael and his level of expertise."},
+        {name: "Jack, Gossamer Threads", text: "Michael is one of the most talented and detail-oriented programmers I've ever come across in almost 22 years online ..."},
+        {name: "Rebecca, Paper Divas", text: "I have been EXTREMELY happy with all the web development work you have done for us ..."},
+        {name: "Robert, Andrew Christian Inc.", text: "By the way, I have nothing but glowing reviews for Michael and his level of expertise."},
     ],
 
     init: function(id) {
