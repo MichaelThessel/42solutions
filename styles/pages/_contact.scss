@@ -1,4 +1,7 @@
 .contact {
+  @include media($tablet) {
+    padding: 0 1em;
+  }
   .contact-form {
     @include span-columns(4);
     @include media($desktop) {
