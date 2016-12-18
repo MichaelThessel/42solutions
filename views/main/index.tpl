@@ -2,7 +2,7 @@
 
   <div class="intro">
     <p>Your website needs the same level of attention that you dedicate to your
-    business in general.</p>
+    business.</p>
   </div>
 
   <div class="boxes">
