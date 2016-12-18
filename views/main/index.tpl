@@ -20,12 +20,27 @@
       <h3><i class="icon-rocket"></i>Scalable</h3>
       <p>A site that grows with your business</p>
     </div>
+
+    <div class="box2 box">
+      <h3><i class="icon-meter"></i>Performant</h3>
+      <p>Pages that render in milliseconds</p>
+    </div>
+
+    <div class="box2 box">
+      <h3><i class="icon-lock"></i>Secure</h3>
+      <p>Security that holds up to modern threats</p>
+    </div>
+
+    <div class="box2 box">
+      <h3><i class="icon-cart"></i>e-Commerce</h3>
+      <p>Fully integrated shopping solutions</p>
+    </div>
   </div>
 
   <div class="services box">
     <h3>Services</h3>
     <ul>
-      <li>Planning, development, integration &amp; maintenance of eCommerce solutions</li>
+      <li>Planning, development, integration &amp; maintenance of e-Commerce solutions</li>
       <li>Small and large scale custom web development</li>
       <li>Optimization &amp; extension of exising web properties</li>
       <li>Long term project maintanance</li>
