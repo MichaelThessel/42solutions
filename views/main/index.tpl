@@ -1,8 +1,8 @@
 <div class="home">
 
   <div class="intro">
-    <p>With more than a decade of web development experience, I'm the
-    partner you are looking for to implement your web project.</p>
+    <p>Your website needs the same level of attention that you dedicate to your
+    business in general.</p>
   </div>
 
   <div class="boxes">
