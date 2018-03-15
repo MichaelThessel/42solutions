@@ -10,6 +10,9 @@
     @include media($tablet) {
       @include span-columns(12);
     }
+
+    // Spam detection
+    #phone { display: none; }
   }
 
   .address {

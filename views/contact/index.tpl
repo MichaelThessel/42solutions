@@ -32,6 +32,7 @@
             <ul class="errors">{{range $i, $e := .Errors.message}}<li>{{$e}}</li>{{end}}</ul>
           {{end}}
         </div>
+        <input type="tel" name="phone" id="phone" value="" />
         <button type="submit" class="button"><span>Send</span></button>
       </form>
     </div>

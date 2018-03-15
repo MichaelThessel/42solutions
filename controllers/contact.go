@@ -22,6 +22,11 @@ func (c *ContactController) Get() {
 func (c *ContactController) Post() {
 	c.init()
 
+	// Spam detection drop message if phone is filled
+	if c.Input().Get("phone") != "" {
+		return
+	}
+
 	var m fortytwo.Message
 	m.Name = c.Input().Get("name")
 	m.Email = c.Input().Get("email")
