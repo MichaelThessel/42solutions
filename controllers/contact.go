@@ -3,6 +3,8 @@ package controllers
 import (
 	"github.com/MichaelThessel/42solutions/models/contact"
 	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/logs"
+	"github.com/haisum/recaptcha"
 )
 
 type ContactController struct {
@@ -17,15 +19,12 @@ func (c *ContactController) init() {
 
 func (c *ContactController) Get() {
 	c.init()
+
+	c.Data["CaptchaKey"] = beego.AppConfig.String("contact::captchakey")
 }
 
 func (c *ContactController) Post() {
 	c.init()
-
-	// Spam detection drop message if phone is filled
-	if c.Input().Get("phone") != "" {
-		return
-	}
 
 	var m fortytwo.Message
 	m.Name = c.Input().Get("name")
@@ -37,6 +36,15 @@ func (c *ContactController) Post() {
 	c.Data["Message"] = m
 	c.Data["IsValid"] = isValid
 	c.Data["Errors"] = errors
+
+	// Validate Captcha
+	rc := recaptcha.R{
+		Secret: beego.AppConfig.String("contact::captchapassword"),
+	}
+	if !rc.Verify(*c.Ctx.Request) {
+		logs.Info("Rejecting contact request from due to invalid captcha %#v", m)
+		return
+	}
 
 	if isValid {
 		m.Send()

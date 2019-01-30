@@ -11,8 +11,9 @@
       @include span-columns(12);
     }
 
-    // Spam detection
-    #phone { display: none; }
+    .g-recaptcha {
+      margin-bottom: 1em;
+    }
   }
 
   .address {

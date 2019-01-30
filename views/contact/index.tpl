@@ -1,3 +1,4 @@
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="contact">
   {{if .IsValid}}
     <div class="message info">Thanks for getting in touch. I will get back to you shortly.</div>
@@ -32,7 +33,7 @@
             <ul class="errors">{{range $i, $e := .Errors.message}}<li>{{$e}}</li>{{end}}</ul>
           {{end}}
         </div>
-        <input type="tel" name="phone" id="phone" value="" />
+        <div class="g-recaptcha" data-sitekey="{{.CaptchaKey}}"></div>
         <button type="submit" class="button"><span>Send</span></button>
       </form>
     </div>

@@ -2,10 +2,11 @@ package fortytwo
 
 import (
 	"fmt"
+	"net/textproto"
+
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/utils"
 	"github.com/astaxie/beego/validation"
-	"net/textproto"
 )
 
 type Message struct {
