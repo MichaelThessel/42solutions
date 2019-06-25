@@ -1,7 +1,7 @@
 package fortytwo
 
 var portfolios = [...]Portfolio{
-	Portfolio{1, "Founder & Developer", "iogly-700x658.png", []string{"Golang", "jQuery", "SASS"}, "iogly.com", true},
+	Portfolio{1, "Founder & Developer of real time application level intrusion detection system", "iogly-700x658.png", []string{"Golang", "jQuery", "SASS"}, "iogly.com", true},
 	Portfolio{2, "Design, implementation, hosting", "pop-700x687.png", []string{"JS", "Angular2", "Burbon Neat", "SASS"}, "pop-tours.com", true},
 	Portfolio{3, "Lead developer of open source project", "pwx-700x570.png", []string{"PHP", "MySQL", "Silex", "Bootstrap"}, "github.com/MichaelThessel/pwx", true},
 	Portfolio{4, "Complete revamp, performance optimizations & feature additions", "andrewchristian.com_-700x536.jpg", []string{"PHP", "MySQL", "Memcache", "Redis", "Magento", "LESS"}, "www.andrewchristian.com", true},
